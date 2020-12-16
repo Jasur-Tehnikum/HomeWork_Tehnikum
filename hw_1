@@ -1,0 +1,16 @@
+print('Please enter 3 numbers and I will determine which one is average.')
+a = int(input())
+print('good, write next number')
+b = int(input())
+print('good, write next number')
+c = int(input())
+print('good job')
+
+if b < a < c or b > a > c:
+    print("middle number is ", a)
+else:
+    if  a < b < c or a > b > c:
+        print("middle number is ", b)
+    else:
+        print("middle number is ", c)
+print('Work completed')
