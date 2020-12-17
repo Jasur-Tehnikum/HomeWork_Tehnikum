@@ -1,0 +1,8 @@
+
+box = 0
+summa = 0
+maximum = int(input())
+while box < maximum:
+    box = box + 1
+    summa = summa + box
+print(summa)
