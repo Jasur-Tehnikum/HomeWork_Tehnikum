@@ -1,0 +1,19 @@
+
+while True:
+    usr_input = input("Введите знак + - * / ")
+    usr_number1 = int(input("Введите первое число"))
+    usr_number2 = int(input("Введите второе число"))
+
+    if usr_input == "+":
+        print(usr_number2 + usr_number1)
+    elif usr_input == "-":
+        print(usr_number2 - usr_number1)
+    elif usr_input == "*":
+        print(usr_number2 * usr_number1)
+    elif usr_input == "/":
+        if usr_input != 0:
+            print(usr_number2 / usr_number1)
+        else:
+            print("Делить на 0 нельзя")
+    else:
+        print("Введен неправильный знак")
